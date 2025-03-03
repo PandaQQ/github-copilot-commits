@@ -6,5 +6,8 @@ test('reverseString reverses the string', () => {
 
     expect(reverseString('world')).toBe('dlrow');
 
+    // add more test for empty string
+    expect(reverseString('')).toBe('');
+    
 });
  
